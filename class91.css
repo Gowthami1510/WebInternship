@@ -1,0 +1,35 @@
+.btn{
+    background-color: white;
+    color:black;
+    height:100px;
+    width:150px;
+}
+.btn:focus{
+    color:white;
+    background-color: black;
+    transition-delay: 1s;
+    transition-duration: 5s;
+    transition-property: height,background-color;
+}
+.parent{
+    width:600px;
+    height: 600px;
+    border:4px solid red;
+    padding: 10px;
+    
+}
+.child{
+    width:200px;
+    height:200px;
+    background-color: red;
+    text-align:center;
+}
+.child:hover{
+    background-color: greenyellow;
+    border-radius: 50%;
+    transform:translateX(200%);
+    /* translate can be given along x and y axis, on hovering object moves */
+    /* trnslate(x/y) can be given is % or px /// 100 percent of child is equal to 200 percent of parent*/
+    transition:3s ease-in-out;
+
+}

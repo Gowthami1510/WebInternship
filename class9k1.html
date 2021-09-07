@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS SELECTORS</title>
+        <style>
+            /* Combined Selectors */
+            
+            h2.yellow{
+                background-color: yellow;
+            }
+            h2.heading{
+                background-color: lightpink;
+            }
+            h2.background{
+                background-color: lime;
+            }
+            h2#select{
+                background-color: magenta;
+            }
+            ol.red li{
+                color:red;
+            }
+            ol.green{
+                color:green;
+            }
+            /* to select li of only ol red class */
+            /* this applies to all the li elements */
+            /* li{
+                color:maroon;
+            } */
+            /* ol.red li.bold{
+                background-color: lightsalmon;
+            }
+            ol.green li#span{
+                background-color: lightsteelblue;
+            } */
+            /* it selects the element mentioned in the brackets */
+            ol.red li:nth-child(2)
+            {
+                color:blue;
+            }
+            /* ol.red li.something{
+                background-color: chocolate;
+            } */
+            
+        </style>
+    </head>
+    <body>
+        <h2 class="yellow">This is a heading</h2>
+        <div class="yellow"> Learning c and java, learning aptitude to get jobs easily. But before that learing skills and 
+            gaining knowledge is important</div>
+            <h2 class="yellow">This is also a heading</h2>
+            <h2 id="select">Select Me</h2>
+        <h2 class="yellow heading">This is a heading</h2>
+        <h2 class="yellow background">This should have a yellow background</h2>
+        <h2 class="yellow background">This should have a yellow background</h2>
+        <h2 class="yellow background">This should have a yellow background</h2>
+        <h2 class="heading">It is a type of heading</h2>
+        <div>
+            <ol class="red">
+                <li>Biriyani</li>
+                <li class="bold">Kabab is special always</li>
+                <li>Roti</li>
+            </ol>
+            <ol class="green">
+                <li>Palav</li>
+                <li id="span">Puliogare</li>
+                <li>Ricebath</li>
+            </ol>
+        </div>
+    </body>
+</html>

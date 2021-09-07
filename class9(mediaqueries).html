@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Media Queries</title>
+        <style>
+            /* this large font-size is ok on laptop but doesnt look good for phones, so we use media queries to 
+            adjust to the phone-size */
+            body{
+                background-color: pink;
+            }
+           div{
+                font-size: 50px;
+            }
+            /* can use both min-width and max-width */
+            @media (max-width:600x)
+            {
+                div{
+                font-size: 30px;
+
+            }
+            body{
+                background-color: lightsteelblue;
+            }
+            }
+        </style>
+    </head>
+    <body>
+        <div><h2>Web Development is awesome</h2></div>
+        <ul>
+            <li>Before 768px:background-cyan</li>
+            <li>Between 768-1024px:background-red</li>
+            <li>After 1024-1280px:background-green</li>
+        </ul>
+
+    </body>
+</html>

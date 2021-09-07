@@ -1,0 +1,19 @@
+.btn{
+    height:50px;
+    width:100px;
+    background-color: black;
+    color:white;
+    transition-delay: 1s;
+    transition-duration: 2s;
+}
+.btn:focus{
+    height: 100px;
+    width:200px;
+background-color: white;
+color:black;
+ transition-delay: 1s; 
+transition-duration: 5s;
+/* the transition-duration completes in 2s like a fade in and fade out type/*/
+/* transition-property:background-color,width ;
+/* transition property applies to width.height,color or any two*/
+}
