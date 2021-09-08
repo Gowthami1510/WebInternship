@@ -1,10 +1,10 @@
 .btn{
     height:50px;
     width:100px;
-    background-color: black;
+    background-color: brown;
     color:white;
     transition-delay: 1s;
-    transition-duration: 2s;
+    transition-duration: 5s;
 }
 .btn:focus{
     height: 100px;
